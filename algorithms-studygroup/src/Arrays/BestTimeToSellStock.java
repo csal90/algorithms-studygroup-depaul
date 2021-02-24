@@ -1,6 +1,6 @@
-package week1Arrays;
+package Arrays;
 
-public class bestTimeToSellStock {
+public class BestTimeToSellStock {
     // Time: O(N) --- Space: O(1)
     public static int maxProfit(int[] prices) {
         int min = Integer.MAX_VALUE;

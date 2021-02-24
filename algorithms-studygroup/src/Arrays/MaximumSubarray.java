@@ -1,6 +1,6 @@
-package week1Arrays;
+package Arrays;
 
-public class maximumSubarray {
+public class MaximumSubarray {
     // Time: O(N) --- Space: O(1)
     public int maxSubArray(int[] nums) {
         int maxSoFar = nums[0];

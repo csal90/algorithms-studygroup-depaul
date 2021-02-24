@@ -1,6 +1,6 @@
-package week1Arrays;
+package Arrays;
 
-public class findMinInRotatedSortedArray {
+public class FindMinInRotatedSortedArray {
     // Time: O(LOGN) --- Space: O(1)
     public int findMin(int[] nums) {
         int low = 0, high = nums.length - 1;

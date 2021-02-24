@@ -1,6 +1,6 @@
-package week1Arrays;
+package Arrays;
 
-public class searchInRotatedSortedArray {
+public class SearchInRotatedSortedArray {
     // Time: O(LOGN) --- Space: O(1)
     public int search(int[] nums, int target) {
         int low = 0, high = nums.length - 1;

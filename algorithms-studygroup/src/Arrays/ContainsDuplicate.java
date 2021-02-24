@@ -1,10 +1,10 @@
-package week1Arrays;
+package Arrays;
 
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-public class containsDuplicate {
+public class ContainsDuplicate {
     // Time: O(NLOGN) --- Space: O(N)
     public boolean containsDuplicate(int[] nums) {
         Set<Integer> set = new HashSet<>();
